@@ -94,6 +94,6 @@ def get_heart_disease_status(input_parameters:MedicalParameters):
     status = model.predict(input_data_reshaped)
 
     if status[0] == 1:
-        return {'status': f'{status[0]} High Risk of heart disease'}
+        return {'status': f'High Risk of heart disease'}
     else:
-        return {'status': f'{status[0]} Low Risk of heart disease'}
+        return {'status': f'Low Risk of heart disease'}
