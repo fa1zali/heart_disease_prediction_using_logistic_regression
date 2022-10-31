@@ -11,7 +11,7 @@ For this project, we will be building a machine learning model to classify wheth
 
 **API**
 
-We have also created an API using FastAPI for users to interact with.
+We have created an API using FastAPI for users to interact with.
 You can run the model using uvicorn on your local machine and test the API, refer to heart_disease_api.py.
 
 ```
