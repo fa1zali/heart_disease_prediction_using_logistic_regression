@@ -27,6 +27,8 @@ You can run the app on your local machine using StreamLit and test the web app, 
 streamlit run heart_disease_streamlit.py
 ```
 
+The app is deployed on Strealit.io. Use following link to explore: [Heart Disease Prediction WebApp](https://fa1zali-heart-disease-webapp-heart-disease-streamlit-g4hz6s.streamlitapp.com/)
+
 ### Files used
 We used the following dataset available on Kaggle to work on this project:
 
