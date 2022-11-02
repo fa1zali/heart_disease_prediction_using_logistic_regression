@@ -8,7 +8,7 @@ model_path = "saved_model/heart_disease_model.sav"
 model = pickle.load(open(model_path, "rb"))
 
 # options
-Gender = {0: "Female", 1: "Male", 2:"Trans"}
+Gender = {0: "Female", 1: "Male"}
 ChestPain = {0: "Typical Angina", 1: "Atypical Angina", 2: "Non Anginal Pain", 3: "Asymptomatic"}
 FastingBloodSugar = {0: "Less than 120 mg/dl", 1: "Greater than 120 mg/dl"}
 ElectrocardiographicResult = {0: "Normal", 1: "ST-T Wave Abnormality", 2: "Left Ventricular Hypertrophy"}
